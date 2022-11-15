@@ -3,8 +3,8 @@
 // A. PRINT ODD NUMBERS IN ARRAY
 
 let get_odd_numbers = function(array) {
-    for (let i=0;i<array.length;i++){
-        if (array[i]%2!=0){
+    for (let i=0;i<array.length;i++){           
+        if (array[i]%2!=0){                  //condition for finding odd numbers
             console.log(array[i])
             }
     }
